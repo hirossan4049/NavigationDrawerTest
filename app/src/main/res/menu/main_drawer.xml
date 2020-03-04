@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="メイン">
+        <menu>
+            <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/memo"
+                android:title="なんやかんや" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/apple"
+                android:title="りんご" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/banana"
+                android:title="ばなな" />
+        </menu>
+    </item>
+
+    <item android:title="カテゴロリ">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/cate_yellow"
+                android:title="旅行" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/cate_blue"
+                android:title="パーソナル" />
+            <item
+                android:id="@+id/seikatu"
+                android:icon="@drawable/cate_green"
+                android:title="生活" />
+            <item
+                android:id="@+id/work"
+                android:icon="@drawable/cate_red"
+                android:title="仕事" />
+        </menu>
+    </item>
+</menu>
